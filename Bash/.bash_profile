@@ -2,7 +2,11 @@ export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 alias ls='ls -hal'
 alias ll='ls'
+alias gu='git pull upstream master'
 
+# Terminal navigation aliasses
+alias cbdev='cd /Users/hansdubois/Documents/Coolblue/Development'
+alias cbpuppet='cd /Users/hansdubois/Documents/Coolblue/Development/puppet'
 
 # Git outcompletion
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
