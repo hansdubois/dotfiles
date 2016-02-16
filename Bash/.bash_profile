@@ -2,7 +2,12 @@ export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 alias ls='ls -hal'
 alias ll='ls'
+
+# Git aliases
 alias gu='git pull upstream master'
+alias gp='git push origin master'
+alias gpf='git push -f origin master'
+alias ga='git commit --amend'
 
 # Terminal navigation aliasses
 alias cbdev='cd /Users/hansdubois/Documents/Coolblue/Development'

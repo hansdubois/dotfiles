@@ -19,5 +19,4 @@
     changed = green
     untracked = cyan
 [core]
-    	# Use custom `.gitignore`
-	excludesfile = /Users/hansdubois/.gitignore_global
+    excludesfile = /Users/hansdubois/.gitignore_global
